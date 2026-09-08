@@ -1,0 +1,15 @@
+#N canvas 781 33 536 435 12;
+#X text 196 19 audio VS control;
+#X text 248 60 pure data treats control messages;
+#X text 338 76 and audio seperately;
+#X obj 50 227 osc~;
+#X text 94 226 audio objects have tilde's ( ~ );
+#X obj 62 298 *~ 0.011;
+#X obj 62 344 dac~;
+#X text 136 299 audio cables a thicker;
+#X floatatom 50 127 5 0 0 0 - - - 0;
+#X text 93 127 osc~ accepts the frquency as a control message;
+#X connect 3 0 5 0;
+#X connect 5 0 6 0;
+#X connect 5 0 6 1;
+#X connect 8 0 3 0;

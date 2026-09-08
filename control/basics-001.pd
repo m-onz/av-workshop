@@ -1,0 +1,16 @@
+#N canvas 863 33 550 389 12;
+#X msg 54 139 hello world!;
+#X obj 51 304 print;
+#X text 169 233 edit mode - curoser is hand - patcher unlocked;
+#X text 170 140 change patcher mode using CMD + e;
+#X floatatom 89 185 5 0 0 0 - - - 0;
+#X text 210 17 hello world!;
+#X obj 25 75 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X text 58 73 toggle;
+#X text 101 112 message;
+#X text 112 170 number;
+#X text 169 209 pure data patchers have two modes:;
+#X text 169 253 run mode - cursor is pointer - interaction enabled;
+#X connect 0 0 1 0;
+#X connect 4 0 1 0;
+#X connect 6 0 1 0;

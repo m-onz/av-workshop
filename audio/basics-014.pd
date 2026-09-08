@@ -1,0 +1,18 @@
+#N canvas 553 33 775 569 12;
+#X obj 121 423 dac~;
+#X obj 130 342 osc~;
+#X obj 130 366 *~ 0.3;
+#X obj 131 312 +~;
+#X floatatom 98 205 5 0 0 0 - - - 0;
+#X floatatom 161 238 5 0 0 0 - - - 0;
+#X obj 161 261 osc~ 1;
+#X obj 156 284 *~ 140;
+#X text 270 27 frequency modulation - FM synthesis;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
+#X connect 2 0 0 1;
+#X connect 3 0 1 0;
+#X connect 4 0 3 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 7 0 3 1;
