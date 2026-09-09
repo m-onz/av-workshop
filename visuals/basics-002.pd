@@ -1,0 +1,14 @@
+#N canvas 361 165 634 524 10;
+#X declare -lib Gem;
+#X obj 372 91 gemhead;
+#X floatatom 416 122 0 -4.5 4.5 0 - - - 0;
+#X obj 372 197 cube;
+#X obj 372 159 translateXYZ;
+#X obj 34 340 declare -lib Gem;
+#X obj 42 409 gemwin;
+#X msg 42 382 reset \, dimen 640 480 \, create \, 1;
+#X connect 0 0 3 0;
+#X connect 1 0 3 1;
+#X connect 1 0 3 2;
+#X connect 3 0 2 0;
+#X connect 6 0 5 0;
