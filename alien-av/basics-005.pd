@@ -1,0 +1,12 @@
+#N canvas 189 246 648 485 12;
+#X obj 133 355 alien;
+#X obj 133 379 print;
+#X listbox 84 425 64 0 0 0 - - - 0;
+#X msg 117 172 (speed (seq 1 2 3) 1);
+#X msg 289 168 (speed (seq 1 2 3) \$1);
+#X floatatom 286 91 5 0 0 0 - - - 0;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X connect 5 0 4 0;
